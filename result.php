@@ -12,20 +12,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Result</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container">
+        <h2>Paragrafo Originale:</h2>
+        <p><?php echo $user_paragraph ?></p>
+        <small>Lunghezza del paragrafo: <?php echo $user_paragraph_len ?></small>
+        <hr>
     
-    <h2>Paragrafo Originale:</h2>
-    <p><?php echo $user_paragraph ?></p>
-    <small>Lunghezza del paragrafo: <?php echo $user_paragraph_len ?></small>
-    <hr>
-
-    <h2>Paragrafo Censurato:</h2>
-    <p> <?php echo $user_paragraph_censored ?> </p>
-
-    <hr>
-
-    <a href="index.php">Scrivi un nuovo paragrafo</a>
+        <h2>Paragrafo Censurato:</h2>
+        <p> <?php echo $user_paragraph_censored ?> </p>
+    
+        <hr>
+    
+        <a href="index.php">Scrivi un nuovo paragrafo</a>
+    </div>
+    
 
 </body>
 </html>
