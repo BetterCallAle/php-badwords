@@ -4,7 +4,6 @@
     $user_bad_word = $_GET["badword"];
     $user_paragraph_censored = str_replace($user_bad_word, "***", $user_paragraph);
     $censored_paragraph_len = strlen($user_paragraph_censored);
-    var_dump($user_paragraph);
 ?>
 
 <!DOCTYPE html>
