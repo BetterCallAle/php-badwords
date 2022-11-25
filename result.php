@@ -19,12 +19,12 @@
     <div class="container">
         <h2>Paragrafo Originale:</h2>
         <p><?php echo $user_paragraph ?></p>
-        <small>Lunghezza del paragrafo: <?php echo $user_paragraph_len - 1 ?></small>
+        <small>Lunghezza del paragrafo: <?php echo $user_paragraph_len ?></small>
         <hr>
     
         <h2>Paragrafo Censurato:</h2>
         <p> <?php echo $user_paragraph_censored ?> </p>
-        <small>Lunghezza del paragrafo: <?php echo $censored_paragraph_len - 1 ?></small>
+        <small>Lunghezza del paragrafo: <?php echo $censored_paragraph_len ?></small>
         <hr>
     
         <a href="index.php">Scrivi un nuovo paragrafo</a>
